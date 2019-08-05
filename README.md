@@ -12,5 +12,5 @@ The warden/ admin of the application have the access to update student's mobile 
 
 The Students can recharge their account through the warden who does that through virtual money
 
-The PCO is made of IoT components and thoss PCO and the application has a common backend database in *FireBase*
+The PCO is made of IoT components and those PCO and the application has a common backend database in *FireBase*
 
