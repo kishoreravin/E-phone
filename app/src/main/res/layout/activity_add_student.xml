@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <EditText
+            android:id="@+id/D_reg_num"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:hint="Card Number"/>
+        <Button
+            android:id="@+id/add_std_scan"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Scan"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/D_num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 1"/>
+    <EditText
+        android:id="@+id/D_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 2"/>
+    <EditText
+        android:id="@+id/D_num3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 3"/>
+    <EditText
+        android:id="@+id/D_num4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 4"/>
+    <Button
+        android:id="@+id/D_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"/>
+
+</LinearLayout>
